@@ -18,7 +18,7 @@ public class Main {
             t.start();
         }
 
-        // esperar a que terminen todos los hilos
+        //espera a que todos terminen 
         for (Thread t : hilos) {
             try { t.join(); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
         }
