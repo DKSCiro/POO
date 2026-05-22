@@ -26,14 +26,18 @@ public class Carrera {
         //determina la ruta del archivo
         rankingPath = Paths.get("ranking_final.txt").toAbsolutePath();
 
-        //divide las ejecuciones (modo append)
-        String cabecera = "------------------------" + LocalDateTime.now() + " ------------------------";
+        //divide las ejecuciones con líneas 
+        List<String> separador = Arrays.asList(
+                "---------------------------",
+                "---------------------------",
+                "Inicio de ejecución: " + LocalDateTime.now()
+        );
         try {
-            Files.write(rankingPath, Arrays.asList(cabecera), StandardCharsets.UTF_8,
+            Files.write(rankingPath, separador, StandardCharsets.UTF_8,
                     StandardOpenOption.CREATE, StandardOpenOption.APPEND);
-            System.out.println("Cabecera escrita en: " + rankingPath);
+            System.out.println("Separador escrito en: " + rankingPath);
         } catch (IOException e) {
-            System.err.println("No se pudo escribir cabecera en " + rankingPath + ": " + e.getMessage());
+            System.err.println("No se pudo escribir separador en " + rankingPath + ": " + e.getMessage());
             e.printStackTrace();
         }
     }
