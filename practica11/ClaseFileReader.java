@@ -24,5 +24,6 @@ public class ClaseFileReader {
         } catch (Exception e) {
             System.out.println("\n\nError al leer el teclado: ");
             e.printStackTrace();
+        }
     }
 }
