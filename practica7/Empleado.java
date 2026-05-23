@@ -1,3 +1,4 @@
+package practica7;
 public class Empleado {
     private String nombre;
     private int numEmpleado, sueldo;

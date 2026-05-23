@@ -1,3 +1,4 @@
+package practica4;
 class Punto {
     int x, y;
 

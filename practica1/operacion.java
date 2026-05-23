@@ -1,3 +1,4 @@
+package practica1;
 public class operacion {
     public static void main(String[] args) {
         float a, b;

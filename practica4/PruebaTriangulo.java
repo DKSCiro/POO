@@ -1,3 +1,4 @@
+package practica4;
 class Triangulo {
     float base, altura;
 

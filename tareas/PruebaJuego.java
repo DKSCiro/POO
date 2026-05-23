@@ -1,3 +1,4 @@
+package tareas;
 public class PruebaJuego {
 
     public static void main(String[] args) {

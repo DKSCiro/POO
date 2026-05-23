@@ -8,7 +8,7 @@ class Sensor extends Thread {
 
     public Sensor(String nombre) {
         this.nombre = nombre;
-        // Generar un tiempo aleatorio entre 500 y 1500 ms
+        //tiempo aleatorio entre 500 y 1500
         this.tiempoEspera = new Random().nextInt(1001) + 500;
     }
 
@@ -27,12 +27,12 @@ class Sensor extends Thread {
 
 public class EjSensor {
     public static void main(String[] args) {
-        // Crear tres sensores
+        //crear tres sensores
         Sensor temp = new Sensor("Temperatura");
         Sensor hum = new Sensor("Humedad");
         Sensor pres = new Sensor("Presión");
 
-        // Lanzarlos al mismo tiempo
+        //lanzados al mismo tiempo
         temp.start();
         hum.start();
         pres.start();

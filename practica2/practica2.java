@@ -1,3 +1,4 @@
+package practica2;
 import java.util.Scanner;
 public class practica2 {
     public static void main(String[] args) {

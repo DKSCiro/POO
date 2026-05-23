@@ -1,3 +1,4 @@
+package practica1;
 public class suma {
     public static void main(String[] args) {
         int a = 4;

@@ -1,3 +1,6 @@
+import Gerente;
+
+package practica7;
 public class Empleado2 {
     private String nombre;
     private int numEmpleado, sueldo;

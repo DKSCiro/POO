@@ -1,3 +1,4 @@
+package practica5;
 class Fecha {
     private int dia;
     private int mes;

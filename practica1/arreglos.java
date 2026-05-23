@@ -1,3 +1,4 @@
+package practica1;
 public class arreglos {
     public static void main(String[] args) {
         int[] numeros = new int[100];

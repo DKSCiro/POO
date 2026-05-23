@@ -1,3 +1,4 @@
+package tareas;
 //Ejercicio 1
 
 public class Termostato {

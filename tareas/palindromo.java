@@ -1,3 +1,4 @@
+package tareas;
 import java.util.Scanner;
 public class palindromo {
     public static void main(String[] args) {
